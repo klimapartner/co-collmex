@@ -1,0 +1,15 @@
+{
+  "User"            : "",
+  "Password"        : "",
+  "CMXKundennummer" : "",
+  "Firma_Nr"        : 1,
+  "Systemname"      : "koa-collmex-test",
+  "Produktnummer"   : "",
+  "Auftragsnummer"  : "",
+  "Rechnungsnummer" : "",
+  "Lieferungsnummer": "",
+  "Lieferantenauftragsnummer" : "",
+  "Kunde_Nr"        : "",
+  "Lieferanten_Nr"  : "",
+  "Angebotsnummer"  : ""
+}

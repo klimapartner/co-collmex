@@ -1,0 +1,21 @@
+{
+  "name": "koa-collmex",
+  "version": "0.8.0",
+  "description": "a collmex api wrapper for co and koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^1.1.7",
+    "iconv": "^2.2.1",
+    "koa-request": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "co": "^4.6.0",
+    "mocha": "^3.1.2"
+  }
+}
