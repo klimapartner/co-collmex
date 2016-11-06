@@ -1,19 +1,19 @@
 {
   "name": "co-collmex",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "a collmex api wrapper for co and koa",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive"
   },
-  "repository" :
-  { "type" : "git",
-    "url" : "https://github.com/klimapartner/co-collmex"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/klimapartner/co-collmex"
   },
   "author": {
-    "name" : "Holger Will",
-    "email" : "h.will@klimapartner.de",
-    "url" : "https://github.com/Holger-Will"
+    "name": "Holger Will",
+    "email": "h.will@klimapartner.de",
+    "url": "https://github.com/Holger-Will"
   },
   "license": "ISC",
   "dependencies": {
