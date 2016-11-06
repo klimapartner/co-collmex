@@ -54,7 +54,7 @@ describe('koa-collmex', function() {
   it('should be able to parse data to objects', function (done) {
       co(
         function* (){
-          var res = yield collmex.get([{Satzart:"PRODUCT_GET",Produktnummer:options.Produktnummer}])
+          var res = yield collmex.get({Satzart:"PRODUCT_GET",Produktnummer:options.Produktnummer})
           assert.equal(Array.isArray(res),true)
           assert.equal(typeof res[0],"object")
           assert.equal(res[0].Satzart,"CMXPRD")
