@@ -6,7 +6,15 @@
   "scripts": {
     "test": "mocha --recursive"
   },
-  "author": "",
+  "repository" :
+  { "type" : "git",
+    "url" : "https://github.com/klimapartner/co-collmex"
+  },
+  "author": {
+    "name" : "Holger Will",
+    "email" : "h.will@klimapartner.de",
+    "url" : "https://github.com/Holger-Will"
+  },
   "license": "ISC",
   "dependencies": {
     "csv-parse": "^1.1.7",
