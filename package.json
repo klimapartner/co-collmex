@@ -1,6 +1,6 @@
 {
   "name": "koa-collmex",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "a collmex api wrapper for co and koa",
   "main": "index.js",
   "scripts": {
