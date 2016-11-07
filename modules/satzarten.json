@@ -816,7 +816,8 @@
     "Preismenge" : "",
     "Verpackungseinheit" : "",
     "Lieferzeit" : "",
-    "Positionswert" : ""
+    "Positionswert" : "",
+    "Auftrag_Pos" : ""
   },
   "CMXKND" : {
     "Satzart" : "CMXKND",
