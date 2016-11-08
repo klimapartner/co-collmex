@@ -1298,6 +1298,47 @@
     "Zeitraum_von" : "",
     "Zeitraum_bis" : ""
   },
+  "CREATE_DUE_DELIVERIES" : {
+    "Satzart" : "CREATE_DUE_DELIVERIES",
+    "Firma_Nr" : "",
+    "Kunde_Nr" : "",
+    "Liefertermin_bis" : "",
+    "Nur_wenn_Bestand_verfügbar" : "",
+    "Warenausgang_buchen" : "",
+    "Auftragsnummer" : "",
+    "Lieferdatum" : ""
+  },
+  "PAYMENT_CONFIRMATION_SEND" : {
+    "Satzart" : "PAYMENT_CONFIRMATION_SEND",
+    "Firma_Nr" : "",
+    "Auftragsnummer" : "",
+    "Kunde_Nr" : "",
+    "Auftragsdatum_von" : "",
+    "Auftragsdatum_bis" : "",
+    "Bearbeiter" : ""
+  },
+  "SHIPMENT_ORDERS_GET" : {
+    "Satzart" : "SHIPMENT_ORDERS_GET",
+    "Lieferung_Nr" : "",
+    "Firma_Nr" : "",
+    "Kunde_Nr" : "",
+    "Versandübergabe" : "",
+    "Versandart" : "",
+    "Übergabe_erforderlich" : "",
+    "Liefertermin_von" : "",
+    "Liefertermin_bis" : "",
+    "Sendungsdatum" : ""
+  },
+  "SHIPMENT_NOTIFICATION_SEND" : {
+    "Satzart" : "SHIPMENT_NOTIFICATION_SEND",
+    "Lieferungsnummer" : "",
+    "Firma_Nr" : "",
+    "Kunde_Nr" : "",
+    "Versandart_Nr" : "",
+    "Versandübergabe_ist_erfolgt" : "",
+    "Mit_Sendungsnummer" : "",
+    "Lieferdatum_Von" : ""
+  },
   "MESSAGE" : {
     "Satzart" : "MESSAGE",
     "Meldungstyp" : "",
