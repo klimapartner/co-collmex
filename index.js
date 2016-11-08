@@ -59,7 +59,8 @@ module.exports = function(options){
     result.forEach(function(row){
       row.forEach(function(field,index){
         if(number.test(field)){
-          row[index] = field.replace(",",".")
+          row[index] = row[index].replace(".","")
+          row[index] = row[index].replace(",",".")
         }
         if(datum.test(field)){
           var da = field.split(".")
