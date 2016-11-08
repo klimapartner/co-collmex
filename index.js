@@ -46,14 +46,14 @@ module.exports = function(options){
             url      : `https://www.collmex.de/cgi-bin/cgi.exe?${this.CMXKundennummer},0,data_exchange`,
             headers  : { 'Content-Type': 'text/csv' },
             body     : iconv.convert(post_data),
-            encoding : 'latin1'
+            encoding : 'binary'
         };
     var res      = yield request.post(options)
     if(output == "raw") return res.body
     var parser   = new CSVWrapper(res.body,{delimiter:";",relax_column_count:true})
     var result   = yield parser.parse
     //var c1=new Date()
-    var number = new RegExp(/^[\d]+,[\d]+$/)
+    var number = new RegExp(/^[\d]*[\.]?[\d]*[,]?[\d]*$/)
     var datum  = new RegExp(/^[\d]+\.[\d]+\.[\d]+$/)
     var datum2  = new RegExp(/^2[\d]{7}$/)
     result.forEach(function(row){
