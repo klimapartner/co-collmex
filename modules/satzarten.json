@@ -1,4 +1,23 @@
 {
+  "ACCDOC_GET" : {
+    "Satzart" : "ACCDOC_GET",
+    "Firma_Nr" : "",
+    "Geschäftsjahr" : "",
+    "Nr" : "",
+    "Kontonummer" : "",
+    "Kostenstelle" : "",
+    "Kundennummer" : "",
+    "Lieferantennummer" : "",
+    "Anlagenummer" : "",
+    "Rechnungsnummer" : "",
+    "Reisenummer" : "",
+    "Text" : "",
+    "Belegdatum_von" : "",
+    "Belegdatum_bis" : "",
+    "Stornos" : "",
+    "Nur_geänderte" : "",
+    "Systemname" : ""
+  },
   "PRODUCT_GET" : {
     "Satzart" : "PRODUCT_GET",
     "Firma_Nr" : "",
@@ -263,6 +282,35 @@
     "Offene_Posten" : "",
     "Kunde_Nr" : "",
     "Lieferant_Nr" : ""
+  },
+  "ACCDOC" : {
+    "Satzart" : "ACCDOC",
+    "Firma_Nr" : "",
+    "Geschäftsjahr" : "",
+    "Belegnummer" : "",
+    "Belegdatum" : "",
+    "Gebucht_am" : "",
+    "Belegtext" : "",
+    "Positionsnummer" : "",
+    "Kontonummer" : "",
+    "Kontoname" : "",
+    "Soll/Haben" : "",
+    "Betrag" : "",
+    "Kunde_Nummer" : "",
+    "Kunde_Name" : "",
+    "Lieferant_Nummer" : "",
+    "Lieferant_Name" : "",
+    "Anlage_Nummer" : "",
+    "Anlage_Name" : "",
+    "Stornierter_Beleg" : "",
+    "Kostenstelle" : "",
+    "Rechnungsnummer" : "",
+    "Kundenauftrag_Nummer" : "",
+    "Reise_Nummer" : "",
+    "Zugeordnet_Nummer" : "",
+    "Zugeordnet_Geschäftsjahr" : "",
+    "Zugeordnet_Positionsnummer" : "",
+    "Dokument_Nr" : ""
   },
   "CMXPRD" : {
     "Satzart" : "CMXPRD",
@@ -1338,6 +1386,10 @@
     "Versandübergabe_ist_erfolgt" : "",
     "Mit_Sendungsnummer" : "",
     "Lieferdatum_Von" : ""
+  },
+  "PROCESS_AMAZON_REPORTS" : {
+    "Satzart" : "PROCESS_AMAZON_REPORTS",
+    "Amazon_Geschäftsname" : ""
   },
   "MESSAGE" : {
     "Satzart" : "MESSAGE",
