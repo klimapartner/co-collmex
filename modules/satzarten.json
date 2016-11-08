@@ -1284,6 +1284,20 @@
     "Gültig_bis" : "",
     "Preis" : ""
   },
+  "CREATE_DUE_INVOICES" : {
+    "Satzart" : "CREATE_DUE_INVOICES",
+    "Firma_Nr" : "",
+    "Rechnungsdatum" : "",
+    "Belieferte_Aufträge" : "",
+    "Fällig_seit" : "",
+    "Bearbeiter" : "",
+    "Warenausgang_muss_gebucht_sein" : "",
+    "Periodische_Rechnungen" : "",
+    "Projekte" : "",
+    "Fällig_in" : "",
+    "Zeitraum_von" : "",
+    "Zeitraum_bis" : ""
+  },
   "MESSAGE" : {
     "Satzart" : "MESSAGE",
     "Meldungstyp" : "",
