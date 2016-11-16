@@ -1,4 +1,23 @@
 {
+  "ACCDOC_GET" : {
+    "Satzart" : "ACCDOC_GET",
+    "Firma_Nr" : "",
+    "Geschäftsjahr" : "",
+    "Nr" : "",
+    "Kontonummer" : "",
+    "Kostenstelle" : "",
+    "Kundennummer" : "",
+    "Lieferantennummer" : "",
+    "Anlagenummer" : "",
+    "Rechnungsnummer" : "",
+    "Reisenummer" : "",
+    "Text" : "",
+    "Belegdatum_von" : "",
+    "Belegdatum_bis" : "",
+    "Stornos" : "",
+    "Nur_geänderte" : "",
+    "Systemname" : ""
+  },
   "PRODUCT_GET" : {
     "Satzart" : "PRODUCT_GET",
     "Firma_Nr" : "",
@@ -263,6 +282,35 @@
     "Offene_Posten" : "",
     "Kunde_Nr" : "",
     "Lieferant_Nr" : ""
+  },
+  "ACCDOC" : {
+    "Satzart" : "ACCDOC",
+    "Firma_Nr" : "",
+    "Geschäftsjahr" : "",
+    "Belegnummer" : "",
+    "Belegdatum" : "",
+    "Gebucht_am" : "",
+    "Belegtext" : "",
+    "Positionsnummer" : "",
+    "Kontonummer" : "",
+    "Kontoname" : "",
+    "Soll/Haben" : "",
+    "Betrag" : "",
+    "Kunde_Nummer" : "",
+    "Kunde_Name" : "",
+    "Lieferant_Nummer" : "",
+    "Lieferant_Name" : "",
+    "Anlage_Nummer" : "",
+    "Anlage_Name" : "",
+    "Stornierter_Beleg" : "",
+    "Kostenstelle" : "",
+    "Rechnungsnummer" : "",
+    "Kundenauftrag_Nummer" : "",
+    "Reise_Nummer" : "",
+    "Zugeordnet_Nummer" : "",
+    "Zugeordnet_Geschäftsjahr" : "",
+    "Zugeordnet_Positionsnummer" : "",
+    "Dokument_Nr" : ""
   },
   "CMXPRD" : {
     "Satzart" : "CMXPRD",
@@ -1283,6 +1331,65 @@
     "Gültig_ab" : "",
     "Gültig_bis" : "",
     "Preis" : ""
+  },
+  "CREATE_DUE_INVOICES" : {
+    "Satzart" : "CREATE_DUE_INVOICES",
+    "Firma_Nr" : "",
+    "Rechnungsdatum" : "",
+    "Belieferte_Aufträge" : "",
+    "Fällig_seit" : "",
+    "Bearbeiter" : "",
+    "Warenausgang_muss_gebucht_sein" : "",
+    "Periodische_Rechnungen" : "",
+    "Projekte" : "",
+    "Fällig_in" : "",
+    "Zeitraum_von" : "",
+    "Zeitraum_bis" : ""
+  },
+  "CREATE_DUE_DELIVERIES" : {
+    "Satzart" : "CREATE_DUE_DELIVERIES",
+    "Firma_Nr" : "",
+    "Kunde_Nr" : "",
+    "Liefertermin_bis" : "",
+    "Nur_wenn_Bestand_verfügbar" : "",
+    "Warenausgang_buchen" : "",
+    "Auftragsnummer" : "",
+    "Lieferdatum" : ""
+  },
+  "PAYMENT_CONFIRMATION_SEND" : {
+    "Satzart" : "PAYMENT_CONFIRMATION_SEND",
+    "Firma_Nr" : "",
+    "Auftragsnummer" : "",
+    "Kunde_Nr" : "",
+    "Auftragsdatum_von" : "",
+    "Auftragsdatum_bis" : "",
+    "Bearbeiter" : ""
+  },
+  "SHIPMENT_ORDERS_GET" : {
+    "Satzart" : "SHIPMENT_ORDERS_GET",
+    "Lieferung_Nr" : "",
+    "Firma_Nr" : "",
+    "Kunde_Nr" : "",
+    "Versandübergabe" : "",
+    "Versandart" : "",
+    "Übergabe_erforderlich" : "",
+    "Liefertermin_von" : "",
+    "Liefertermin_bis" : "",
+    "Sendungsdatum" : ""
+  },
+  "SHIPMENT_NOTIFICATION_SEND" : {
+    "Satzart" : "SHIPMENT_NOTIFICATION_SEND",
+    "Lieferungsnummer" : "",
+    "Firma_Nr" : "",
+    "Kunde_Nr" : "",
+    "Versandart_Nr" : "",
+    "Versandübergabe_ist_erfolgt" : "",
+    "Mit_Sendungsnummer" : "",
+    "Lieferdatum_Von" : ""
+  },
+  "PROCESS_AMAZON_REPORTS" : {
+    "Satzart" : "PROCESS_AMAZON_REPORTS",
+    "Amazon_Geschäftsname" : ""
   },
   "MESSAGE" : {
     "Satzart" : "MESSAGE",

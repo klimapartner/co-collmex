@@ -53,13 +53,13 @@ module.exports = function(options){
     var parser   = new CSVWrapper(res.body,{delimiter:";",relax_column_count:true})
     var result   = yield parser.parse
     //var c1=new Date()
-    var number = new RegExp(/^[\d]*[\.]?[\d]*[,]?[\d]*$/)
+    var number = new RegExp(/^-?[0-9]*\.?[0-9]+(?:,?[0-9]+)?$/)
     var datum  = new RegExp(/^[\d]+\.[\d]+\.[\d]+$/)
     var datum2  = new RegExp(/^2[\d]{7}$/)
     result.forEach(function(row){
       row.forEach(function(field,index){
         if(number.test(field)){
-          row[index] = field.replace(",",".")
+          row[index] = parseFloat(row[index].replace(/\./g, '').replace(",","."))
         }
         if(datum.test(field)){
           var da = field.split(".")
