@@ -408,8 +408,9 @@
     "Menge" : "",
     "Bestandstyp" : "",
     "Chargennummer" : "",
-    "Wert" : ""
-  },
+    "Wert" : "",
+    "Chargenbezeichnung" : ""
+    },
   "STOCK_CHANGE" : {
     "Satzart" : "STOCK_CHANGE",
     "Bestandsänderung_Nr" : "",
