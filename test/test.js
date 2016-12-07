@@ -112,6 +112,7 @@ describe('koa-collmex', function() {
           var res = yield collmex.get({Satzart:"STOCK_GET",Produktnummer:options.Produktnummer})
           assert.equal(res[0].Satzart,"CMXSTK")
           assert.equal(res[0].hasOwnProperty("undefined"),false)
+
           done()
         }
       ).catch(onerr);
