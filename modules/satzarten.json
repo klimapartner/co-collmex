@@ -918,7 +918,9 @@
     "Mahnsperre" : "",
     "Keine_Mailings" : "",
     "Privatperson" : "",
-    "URL" : ""
+    "URL" : "",
+    "Teil_Lieferungen_erlaubt" : "",
+    "Teil_Rechnungen_erlaubt" : ""
   },
   "CMXABO" : {
     "Satzart" : "CMXABO",
