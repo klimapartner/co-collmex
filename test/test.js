@@ -172,7 +172,6 @@ describe('koa-collmex', function() {
         function* (){
           var res = yield collmex.get({Satzart:"CUSTOMER_GET",Kunde_Nr:options.Kunde_Nr})
           assert.equal(res[0].Satzart,"CMXKND")
-          console.log(res)
           assert.equal(res[0].hasOwnProperty("undefined"),false)
           done()
         }
