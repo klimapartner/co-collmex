@@ -22,6 +22,7 @@ function CSVWrapper(str,options){
 }
 
 module.exports = function(options){
+  this.number = new RegExp(/^-?[0-9]*(\.?[0-9]{3})*(?:,?[0-9]+)?$/)
   this.User            = options.User            || "noname"
   this.Password        = options.Password        || "password"
   this.CMXKundennummer = options.CMXKundennummer || "112233"
@@ -53,7 +54,7 @@ module.exports = function(options){
     var parser   = new CSVWrapper(res.body,{delimiter:";",relax_column_count:true})
     var result   = yield parser.parse
     //var c1=new Date()
-    var number = new RegExp(/^-?[0-9]*\.?[0-9]+(?:,?[0-9]+)?$/)
+    var number = this.number
     var datum  = new RegExp(/^[\d]+\.[\d]+\.[\d]+$/)
     var datum2  = new RegExp(/^2[\d]{7}$/)
     result.forEach(function(row){
