@@ -162,7 +162,7 @@ describe('koa-collmex', function() {
         function* (){
           var res = yield collmex.get({Satzart:"PURCHASE_ORDER_GET",Lieferantenauftragsnummer:options.Lieferantenauftragsnummer})
           assert.equal(res[0].Satzart,"CMXPOD")
-          //assert.equal(res[0].hasOwnProperty("undefined"),false)
+          assert.equal(res[0].hasOwnProperty("undefined"),false)
           done()
         }
       ).catch(onerr);
