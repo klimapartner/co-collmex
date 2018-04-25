@@ -376,7 +376,8 @@
     "Amazon_ASIN" : "",
     "eBay_Artikelnummer" : "",
     "Direktlieferung" : "",
-    "Warennummer" : ""
+    "Warennummer" : "",
+    "Lagerplatz" :""
   },
   "CMXPRI" : {
     "Satzart" : "CMXPRI",
