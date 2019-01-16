@@ -4,7 +4,7 @@
   "description": "a collmex api wrapper for co and koa",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "mocha -b --recursive"
   },
   "repository": {
     "type": "git",

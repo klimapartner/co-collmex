@@ -83,7 +83,11 @@ module.exports = function(options){
       var satz = JSON.parse(JSON.stringify(_satzarten[row[0]]))
       var keys = Object.keys(satz)
       row.forEach(function(field,index){
-        satz[keys[index]]=field
+        if(keys[index]!==undefined){
+          satz[keys[index]]=field
+        }else{
+          console.log(satz.Satzart)
+        }
       })
       a[index]=satz
     })
